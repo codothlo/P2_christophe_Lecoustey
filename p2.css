@@ -1,1 +1,473 @@
-head {text-decoration: grey;}
+/*les fontes*/
+@font-face
+{
+	font-family: "Raleway";
+	scr: url("static/Raleway-Regular.ttf");
+}
+
+@font-face
+{
+	font-family: "Raleway-thin";
+	scr: url("static/Raleway-Thin.ttf");
+}
+
+h1, h2, h3,
+
+a
+{
+	font-family: "Raleway";
+	font-weight: bold;
+}
+p
+{
+	font-family: "Raleway";
+}	
+
+/*pour la page entière*/
+#page
+{
+	margin: auto;
+	width: 98%;
+}
+
+/*entête logo et choix hauts*/
+.tete
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.tetenav
+{
+	display: flex;
+	margin-right: 3%;
+}
+
+.logo
+{
+	cursor: pointer;
+}
+
+header ul
+{
+	display: flex;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	margin-left: auto;
+	color: #0065FC;
+}
+
+header ul li a:hover
+{
+	border-top: 5px solid #0065FC;
+	padding-top: 20px;
+	color: #0065FC;
+}
+header ul li
+{
+	margin-left: 20px;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+/*recherche et textes*/
+.texte1et2
+{
+	margin-bottom: 30px;
+}
+.logo1
+{
+	display: inline-flex;
+	margin-top: -15px;
+	align-items: center;
+}
+button
+{
+	background-color: #0065FC;
+	border: none;
+	padding: 15px 15px;
+	border-radius: 0 10px 10px 0;
+	font-weight: bold;
+	font-family: "Raleway", sans-serif;
+	font-size: 1em;
+	cursor: pointer;
+	margin: 0 -50px;
+}
+.icone1
+{
+	width: 30px;
+	font-size: 25px;
+	background-color: #F2F2F2;
+	padding: 10px 10px;
+	border-radius: 10px 0 0 10px;
+	text-align: center;
+}
+input
+{
+	
+	padding: 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	font-family: "Raleway", sans-serif;
+	border-right: none;
+	border-left: none;
+	border-top: #F2F2F2 1px solid;
+	border-bottom: #F2F2F2 1px solid;
+	padding: 0 24px;
+	height: 50px;
+	font-size: 15px;
+}
+.bouton
+{
+	border-radius: 0 18px 18px 0;
+	padding: 15px;
+	background-color: #0065FC;
+	color: white;
+	position: center;
+}
+.fas
+{
+	color: #0065FC;
+}
+.fa-map-marker-alt
+{
+	color: black;
+}
+.cche i
+{
+	display: none;
+}
+
+/*les filtres avec icones*/
+
+.titredesfiltres
+{
+	font-size: 16px;
+	margin: 0 20px 0 0 ;
+}
+.titre
+{
+	font-family: "Raleway" sans-serif;
+	font-weight: bold;
+	padding-right: 16px;
+	padding-left: 8px;
+	cursor: pointer;
+}
+.barreF: hover
+{
+	background-color: #0065FC;
+	color: white;
+	cursor: pointer;
+}
+.barreF 
+{
+	display: flex;
+	align-items: center;
+	width: auto;
+	margin-right: 32px;
+	border: 2px solid white;
+	border-radius: 32px;
+	font-weight: bold;
+}
+
+.filtres
+{
+	display: flex;
+	align-items: center;
+}
+.imageF
+{
+	padding: 15px 15px;
+	border-radius: 50%;
+	background-color: white;
+	cursor: pointer;
+}
+.fas
+{
+	color: #0065FC;
+}
+.information
+{
+	display: flex;
+}
+.fa-info
+{
+	text-align: center;
+	color: #0065FC;
+	border-radius: 50%;
+	height: 40px;
+	font-weight: 33px;
+	border: solid 2px #F2F2F2;
+	padding: 12px;
+	box-sizing: border-box; 
+
+}
+.texteinformation
+{
+	padding-left: 10px;
+}
+
+/*partie photos hebergements et populaire*/
+
+.hebergementsetpopulaires
+{
+	display: flex;
+	margin: 25px 0 50px;
+}
+
+/*partie hebergements*/
+
+.heberg
+{
+	background-color: #F2F2F2;
+	border-radius: 20px;
+	width: 60%;
+	padding: 10px;
+	margin: 0 25px 0 0;
+}
+.hbgmars
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+.Hbg
+{
+	width: 31%;
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	margin: 0 5px 20px 5px;
+	box-shadow: 0 5px 20px black;
+}
+.Hbg img
+{
+	background-color: white;
+	border-radius: 15px 15px 0 0;
+	width: 100%;
+	height: 100px;
+}
+.Hbg p
+{
+	margin: 5px 10px;
+	font-weight: 100;
+}
+.Hbg h3
+{
+	margin: 5px 10px;
+}
+.etoile
+{
+	margin: 5px 6px;
+}
+
+
+/*partie populaires*/
+
+
+.popula
+{
+	background-color: #F2F2F2;
+	border-radius: 15px;
+	width: 30%;
+	padding: 20px;
+	margin: 0 20px 0 0;
+}
+.popu
+{
+	position: relative;
+}
+.pop
+{
+	display: flex;
+	width: 95%;
+	height: 145px;
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 0 0 20px 0;
+	box-shadow: 0 5px 20px black;
+}
+.popimage
+{
+	background-color: white;
+	float: left;
+	vertical-align: 15px;
+	width: 40%;
+	height: 92%;
+	border-radius: 15px 0 0 15px;
+	margin: 5px 15px 0 5px;
+}
+.fa-chart-line
+{
+position: relative;
+left: 190px;
+margin-top: 10px;
+color: black;
+}
+.pop p
+{
+	margin: 10px;
+	font-weight: 100;
+}
+.pop h3
+{
+	margin: 15px;
+}
+.etoile
+{
+	margin: 6px 6px;
+}
+
+
+/*partie activités*/
+
+.activite
+{
+	background-color: white;
+	border-radius: 15px;
+	width: 92%;
+	padding: 20px;
+	margin: 0 20px 0 0;
+}
+.active
+{
+	display: grid;
+	grid-template-columns: repeat(4,auto);
+	justify-content: space-between;
+	grid-auto-rows: minmax(auto,auto);
+	width: 100%;
+}
+.act1, act2
+{
+	width: 92%;
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 0 0 20px 0;
+	box-shadow: 0 5px 20px black;
+	
+}
+.act img
+{
+	width: 100%;
+	
+	border-radius: 20px 20px 0 0;
+}
+.act1 act
+{
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 0 0 20px 0;
+	box-shadow: 0 5px 20px black;
+	height: 400px;
+	width: 33%;
+	grid-column: 1;
+	grid-row: 1
+}
+.act2 act
+{
+	
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 0 0 20px 0;
+	box-shadow: 0 5px 20px black;
+	height: 50%;
+	grid-column: 2;
+	grid-row: 1/2
+}
+.act3
+{
+	
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 0 0 20px 0;
+	box-shadow: 0 5px 20px black
+	height: 400px;
+	grid-row: 2;
+	grid-column: 2
+}
+.act4
+{
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 0 0 20px 0;
+	box-shadow: 0 5px 20px black
+	height: 400px;
+	
+	grid-column: 3
+}
+.act5
+{
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 0 0 20px 0;
+	box-shadow: 0 5px 20px black
+	height: 400px;
+	grid-row: 1;
+	grid-column: 4
+}
+.act6
+{
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 0 0 20px 0;
+	box-shadow: 0 5px 20px black
+	height: 400px;
+	grid-row: 2;
+	grid-column: 4;
+}
+.act p
+{
+	margin: 5px 10px;
+	font-weight: 100;
+}
+.act h3
+{
+	margin: 5px 10px;
+}
+
+/* le Footer*/
+
+footer
+{
+	background-color: #F2F2F2;
+}
+
+.blocpied
+{
+	display: flex;
+	max-width: 100%;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.interieurblocpied
+{
+	width: 40%;
+}
+h3
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.lignetitres
+{
+	color: black;
+	display: block;
+	margin: 15px 0;
+	font-weight: 400;
+}
+
+
+
