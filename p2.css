@@ -682,11 +682,13 @@ h3
 
 
 
-/*adapatation de page ecran téléphone*/
+/*adapatation de page ecran téléphone----------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 420px)
 {
- /*haut de page*/	
+
+ /*haut de page*/
+
 	header{margin: 0; width: 100%;}
 	.tete{display: grid; padding-top: 5px;}
 	.tetenavigation{margin-right: 0;}
@@ -706,8 +708,10 @@ h3
 	.bouton{font-size: 0;border-radius: 40%; padding: 25px;margin: 0 0 10px 0;}
 	.cherche{margin: 0;}
 	.cherche i{display: flex; align-items: center; justify-content: center;margin-top: -11px;color: white;}
+
+/*populaire*/
+
 	.filtres{display: grid; align-items: center;padding: 0;}
-	
 	.titredesfiltres{margin-bottom: 10px;}
 	.zonefiltres{display: flex;flex-wrap: wrap;flex-direction: row;}
 	.barreFiltres{border: 1px solid #cccccc; border-radius: 32px;margin: 4px;}
@@ -722,7 +726,9 @@ h3
 	.information{margin: 15px 1px -17px 1px; border-radius: 50%;}
 	.information i{display: flex;align-items: center;justify-content: center;margin: 25% 0 0 0;}
 	.texteinformation{margin: auto;padding: 3% 2% 7% 3%;}
+
 /*populaire*/
+
 	.hebergementsetpopulaires{flex-direction: column-reverse;width: 330%; margin-left: -6%;}
 	.titrePopulaire{margin: 0 0 0 1%;}
 	.Populaires{margin: 0;font-size: 0.8em;}
@@ -731,7 +737,9 @@ h3
  	.logementsPopulaire{margin: 42px 0 -31px 9px; box-shadow: none;}
 	.logementsPopulaire p{margin: -12px;}
 	.etoilepopulaire{margin: 53px;}
+ 
  /*hebergement*/
+
 	.hebergements{width: 98%;margin: 0 5% 0 0.3%;background-color: white;}
 	.textehebergement{margin: 2% 0 2% 1.5%; font-size: 1em;}
 	.hebergementMarseille{flex-direction: column;}
@@ -741,7 +749,9 @@ h3
 	.HotelAuberge p{margin: 1px 1px 5px 5px;}
 	.etoile{margin: 7px 0 3px 5px;}
 	.afficherplus{margin: 0 0 0 1%;}
+ 
  /*activité*/
+
 	.activite{margin: 0;}
 	.TexteActivites{margin: 1% 2% 2% 2%; font-weight: bold;font-size: 1em;}
 	.box{margin: 0 0 -143% 1%;}
@@ -759,7 +769,9 @@ h3
 	.box5 img{height: 80%;}
 	.box6{margin: 5% 0 0 1.5%;height: 10%;}
 	.box6 img{height: 80%;}
+
  /*pied de page*/
+
  	footer{width: 108%;margin: 0 0 0 -3%;}
 	.blocpied{display: flex; flex-direction: column;font-size: 1em;padding: 2% 5% 2% 3%;}
 	.interieurblocpied{width: 100%;}
@@ -768,7 +780,7 @@ h3
 }
 
 
- /*adapatation de page ecran tablette horizontale*/
+ /*adapatation de page ecran tablette --------------------------------------------------------------------------------------------------------------*/
 
 @media all and (min-width: 769px) and (max-width: 1023px)
 
