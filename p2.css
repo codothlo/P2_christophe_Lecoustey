@@ -682,7 +682,7 @@ h3
 
 
 
-/*adapatation de page ecran téléphone----------------------------------------------------------------------------------------------------------*/
+/*adapatation de page ecran téléphone-----------------------------------------------*/
 
 @media only screen and (max-width: 420px)
 {
@@ -718,7 +718,7 @@ h3
 	.Economie{width: 50%;}
 	.Famillial{width: 40%;}
 	.Romantique{width: 50%;}
-	.Animaux{width: 60%;}
+	.Animaux{width: 70%;}
 	.imageFiltres{background-color: #ddeafe;}
 	.famille{position: absolute;margin: -109px 0 0 188px; width: 40%;}
 	.animaux{margin: 7px 0px 10px 0px;}
@@ -730,8 +730,8 @@ h3
 /*populaire*/
 
 	.hebergementsetpopulaires{flex-direction: column-reverse;width: 330%; margin-left: -6%;}
-	.titrePopulaire{margin: 0 0 0 1%;}
-	.Populaires{margin: 0;font-size: 0.8em;}
+	.titrePopulaire{margin: 0 0 0 1%;font-size: 1em;}
+	.Populaires{margin: 0;font-size: 1em;}
 	.Populaires i{right: 20px;}
 	.ArticlePopulaire{margin: -18px 0 51px 0;}
  	.logementsPopulaire{margin: 42px 0 -31px 9px; box-shadow: none;}
@@ -792,18 +792,18 @@ h3
  	.tetenavigation{display: flex;margin: 1% 3% 0 7%;}
  	.titredesfiltres{margin: 3.5% 0 0 0;}
  	.barreFiltres{border: 1px solid #cccccc; border-radius: 32px;margin: 4px;font-size: 0.9em;}
-	.Economie{width: 50%;font-size: 0.9em;}
-	.Famillial{width: 50%;}
-	.Romantique{width: 50%;}
-	.Animaux{width: 60%;}
+	.Economie{width: 37%;font-size: 0.9em;}
+	.Famillial{width: 31%;}
+	.Romantique{width: 40%;}
+	.Animaux{width: 56%;}
 	.imageFiltres{background-color: #ddeafe;}
 	.famille{position: absolute;margin: -109px 0 0 188px; width: 40%;}
 	.animaux{margin: 7px 0px 10px 0px;}
- 	.zonefiltres{margin: 1% 1% 1% 1%;width: -moz-available;}
+ 	.zonefiltres{margin: 1% 1% 1% 1%;width: 84%;}
 
  /*Informations*/
 
- 	.information{margin: 15px 1px -17px 1px; border-radius: 50%;}
+ 	.information{margin: 1% 1% 0 0; border-radius: 50%;}
 	.information i{display: flex;align-items: center;justify-content: center;margin: 25% 0 0 0;}
 	.texteinformation{margin: 0;padding: 3% 2% 7% 3%;}
 
@@ -823,9 +823,9 @@ h3
  /*populaire*/
 
 	.Populaires {font-size: 0.9em;border-radius: 20px;width: 37%;padding: 14px;margin: 0 0 0 -11px;}
-	.Populaires i{right: 20px;}
+	.Populaires i{right: 6%;}
 	.PopulaireImages{width: 38%;margin: 5px 5px 0 5px;}
-	.titrePopulaire{margin: 0 0 0 -4px;font-size: 1.4em;}
+	.titrePopulaire{margin: 0 0 0 -4px;font-size: 1em;}
 	.ArticlePopulaire{margin: -40px -11px 0 2px;}
 	.logementsPopulaire{margin: 54px 0 -30px -9px;width: 100%;}
 	.logementsPopulaire p{margin: -5px;}
