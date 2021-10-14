@@ -313,6 +313,7 @@ input
 .hebergementsetpopulaires
 {
 	display: flex;
+
 	margin: 0% 0 4% 1%;
 	font-size: 1em;
 	
@@ -395,7 +396,7 @@ input
 	font-size: 1em;
 	background-color: #F2F2F2;
 	border-radius: 15px;
-	width: 30%;
+	width: 35%;
 	padding: 20px;
 	margin: 0 20px 0 0;
 }
@@ -709,7 +710,7 @@ h3
 	.cherche{margin: 0;}
 	.cherche i{display: flex; align-items: center; justify-content: center;margin-top: -11px;color: white;}
 
-/*populaire*/
+/*Filtres*/
 
 	.filtres{display: grid; align-items: center;padding: 0;}
 	.titredesfiltres{margin-bottom: 10px;}
@@ -729,9 +730,9 @@ h3
 
 /*populaire*/
 
-	.hebergementsetpopulaires{flex-direction: column-reverse;width: 330%; margin-left: -6%;}
+	.hebergementsetpopulaires{flex-direction: column-reverse;width: 98%; margin-left: -6%;}
 	.titrePopulaire{margin: 0 0 0 1%;font-size: 1em;}
-	.Populaires{margin: 0;font-size: 1em;}
+	.Populaires{margin: 1% 1% 1% 1.5%;font-size: 1em;width: 100%;}
 	.Populaires i{right: 20px;}
 	.ArticlePopulaire{margin: -18px 0 51px 0;}
  	.logementsPopulaire{margin: 42px 0 -31px 9px; box-shadow: none;}
@@ -740,20 +741,21 @@ h3
  
  /*hebergement*/
 
-	.hebergements{width: 98%;margin: 0 5% 0 0.3%;background-color: white;}
-	.textehebergement{margin: 2% 0 2% 1.5%; font-size: 1em;}
+	.hebergements{width: 100%;margin: 2% 3% 2% 6%;background-color: white;}
+	.textehebergement{margin: 2% 2% 2% -1%; font-size: 1em;}
 	.hebergementMarseille{flex-direction: column;}
-	.HotelAuberge{box-shadow: 0 5px 20px #f2f2f2; margin:1% 0 0 1%;font-size: 1em;width: 32%;}
+	.HotelAuberge{box-shadow: 0 5px 20px #f2f2f2; margin:2% 2% 2% 1.5%;font-size: 1em;width: 100%;}
 	.HotelAuberge img{height: 150px;}
 	.HotelAuberge h4{margin: 1px 1px 5px 5px;}
 	.HotelAuberge p{margin: 1px 1px 5px 5px;}
 	.etoile{margin: 7px 0 3px 5px;}
-	.afficherplus{margin: 0 0 0 1%;}
+	.afficherplus{margin: 0;}
  
  /*activité*/
 
 	.activite{margin: 0;}
-	.TexteActivites{margin: 1% 2% 2% 2%; font-weight: bold;font-size: 1em;}
+	.TexteActivites{margin: 1% 2% 2% 0%; font-weight: bold;font-size: 1em;width: 100%;}
+	.ArticleActivites{height: 100%;}
 	.box{margin: 0 0 -143% 1%;}
 	.box1et2et3{display: flex; flex-direction: column; grid-column-gap: 0;grid-row-gap: 1%;}
 	.photobox{box-shadow: 0 5px 5px #f5f5f5}
