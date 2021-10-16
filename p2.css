@@ -232,23 +232,32 @@ input
 }
 .Economie
 {
-	width: 15%;
 	font-size: 1em;
+	width: 15%;
+	height: 93%;
+	object-fit: cover;
 }
 .Famillial
 {
-	width: 14%;
 	font-size: 1em;
+	width: 14%;
+	height: 93%;
+	object-fit: cover;
+	
 }
 .Romantique
 {
-	width: 17%;
 	font-size: 1em;
+	width: 17%;
+	height: 93%;
+	object-fit: cover;
 }
 .Animaux
 {
-	width: 22%;
 	font-size: 1em;
+	width: 22%;
+	height: 93%;
+	object-fit: cover;	
 }
 .imageFiltres
 {
@@ -359,6 +368,7 @@ input
 	border-radius: 15px 15px 0 0;
 	width: 100%;
 	height: 100px;
+	object-fit: cover;
 }
 .HotelAuberge p
 {
@@ -371,6 +381,7 @@ input
 	font-size: 1em;
 	margin: 3% 1%;
 }
+
 .etoile
 {
 	margin: 2% 1%;
@@ -422,8 +433,15 @@ input
 	margin: 0 0 20px 0;
 	box-shadow: 0 5px 20px black;
 }
+.logementsPopulaire img
+{
+	width: 40%;
+	height: 92%;
+	object-fit: cover;
+}
 .PopulaireImages
 {
+	
 	background-color: white;
 	float: left;
 	vertical-align: 15px;
@@ -526,7 +544,9 @@ input
 }
 .box1 img
 {
+	width: 101%;
 	height: 90%;
+	object-fit: cover;
 }
 .box1 h3
 {
@@ -548,8 +568,9 @@ input
 }
 .box2 img
 {
+	width: 101%;
 	height: 76%;
-	
+	object-fit: cover;
 }
 .box2 h3
 {
@@ -571,7 +592,9 @@ input
 }	
 .box3 img
 {
+	width: 101%;
 	height: 76%;
+	object-fit: cover;
 }
 .box3 h3
 {
@@ -593,7 +616,9 @@ input
 }
 .box4 img
 {
+	width: 101%;
 	height: 90%;
+	object-fit: cover;
 }
 .box4 h3
 {
@@ -614,7 +639,9 @@ input
 }
 .box5 img
 {
+	width: 101%;
 	height: 76%;
+	object-fit: cover;
 }
 .box5 h3
 {
@@ -637,7 +664,9 @@ input
 }
 .box6 img
 {
+	width: 101%;
 	height: 76%;
+	object-fit: cover;
 }
 .box6 h3
 {
@@ -789,6 +818,7 @@ h3
 { 
  /*Entête*/
 
+
 	.texte1et2{font-size: 0.9em;margin: 5% auto;}
 	.texte1et2 h2{margin: 0;} 
  	.tetenavigation{display: flex;margin: 1% 3% 0 7%;}
@@ -820,7 +850,7 @@ h3
 	.HotelAuberge p{margin: 1px 1px 5px 5px;}
 	.etoile{margin: 7px 0 3px 5px;}
 	.afficherplus{margin: -13px 0 -15px 22px;}
-
+	
 
  /*populaire*/
 
